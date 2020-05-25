@@ -1,0 +1,12 @@
+*~
+*.sw[op]
+.vscode
+.DS_Store
+sysroot
+
+__pycache__
+*.py[cod]
+*.dSYM
+
+out
+build
