@@ -136,11 +136,14 @@ LINUX_GCC_VERSION=7.5.0
 $ ./x86_64-elf-gnu-compile.sh $GNU_BINUTILS_DIR $LINUX_GCC_VERSION
 ```
 
-You may upload the product program `out/hello` to your x86_64 ELF Linux to
-execute it, and you would see something like this:
+You may upload the product programs in `out` to your x86_64 ELF Linux to
+execute them, and you would see something like this:
 ```sh
 # In target machine x86_64 ELF Linux
-$ out/hello
+$ out/hello_c
+hello, world!
+The process ID is 8292.
+$ out/hello_cc
 hello, world!
 The process ID is 8293.
 ```
